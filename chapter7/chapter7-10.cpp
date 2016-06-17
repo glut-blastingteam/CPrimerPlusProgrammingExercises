@@ -48,7 +48,7 @@ void prtTax(int tax_class,float salary){
 			tax = salary * 0.15;
 		}
 	}else if(tax_class==4){
-		if(salary>14875){
+		if(salary>CLS4_BASE){
 			tax = CLS4_BASE * 0.15 + (salary-CLS4_BASE) * 0.28;
 		}else{
 			tax = salary * 0.15;
